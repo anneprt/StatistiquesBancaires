@@ -6,6 +6,9 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+        int nbCb = 0;
+        int nbCheque = 0;
+        int nbVirements = 0;
 
         Scanner lectureClavier = new Scanner(System.in);
         System.out.print("Nombre de paiements par Carte Bleue");
