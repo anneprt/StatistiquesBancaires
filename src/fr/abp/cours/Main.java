@@ -29,6 +29,12 @@ public class Main {
         pourcentageCheque = (float) nbCheque / nbDebit * 100;
         pourcentageVirement = (float) nbVirement / nbDebit * 100;
 
+        System.out.println("Vous avez émis " + nbDebit + " ordres de débit");
+        System.out.println("dont " + pourcentageCb + " % par Carte Bleue");
+        System.out.println("" + pourcentageCheque + " % par chèque");
+        System.out.println("" + pourcentageVirement + " % par virement");
+
 
     }
 }
+
